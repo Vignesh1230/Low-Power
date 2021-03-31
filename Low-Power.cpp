@@ -46,7 +46,7 @@
 	#error "Processor architecture is not supported."
 #endif
 
-#include "LowPower.h"
+#include "Low-Power.h"
 
 #if defined (__AVR__)
 // Only Pico Power devices can change BOD settings through software
